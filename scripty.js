@@ -10,7 +10,7 @@ async function gerarQR(){
     const SKU = document.getElementById('sku').value;//captura o valor do input de sku
     const QUANTIDADE = parseInt(document.getElementById('qtd').value, 10);//captura o valor do input de quantidade
 
-    if(sku == ""){
+    if(SKU == ""){
         alert("preencha o campo SKU")
     }else{
         const conteudoTextoConcatenado = [];
